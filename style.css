@@ -3,6 +3,7 @@
     padding: 0;
     max-width: fit-content;
     font-family: 'Jost', sans-serif;
+    overflow: hidden;
 }
 .navbar-brand {
     font-family: 'Jost', sans-serif;
@@ -11,7 +12,7 @@
     font-size: 2em;
     color: white;
     margin: auto;
-    margin-left: 3.5em;
+    margin-left: 0.5em auto;
 }
 .navbar-brand:hover {
     color: white;
@@ -58,7 +59,7 @@
 }
 .hero .hero-text {
     color: white;
-    align-self: center;
+    align-content: center;
     font-size: 30px;
     line-height: 50px;
     font-family: 'Jost', sans-serif;
@@ -79,6 +80,10 @@
 }
 .about {
     display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
 }
 .sub-title {
     line-height: 100px;
@@ -86,6 +91,21 @@
     font-size: 30px;
     font-weight: 550;
     width: 100%;
+}
+.about-body {
+    display: flex;
+    color: #6d6d6d;
+    align-content: center;
+    justify-content: center;
+    font-size: 1.5em;
+    padding: 20px 30px;
+}
+.about-image {
+    width: 100%;
+}
+.col-md-6 {
+    display: flex;
+    align-items: center;
 }
 .punctuation {
     font-size: 35px;
@@ -96,24 +116,27 @@
     justify-content: center;
     background-color: #095d51;
     color: white;
+    overflow: hidden;
 }
-.newsletter-p {
-    width: 400px;
+.newsletter .newsletter-p {
+    width: 300px;
     text-align: center;
     font-size: 18px;
+    overflow: hidden;
 }
 
 input.form-control {
     display: flex;
     border-radius: 0;
     padding: 10px 15px;
-    width: 400px;
+    width: 300px;
     justify-content: center;
     background: #095d51;
     border: 1px solid white;
+    overflow: hidden;
 }
 .btn {
-    width: 400px;
+    width: 300px;
     display: flex;
     background-color: rgb(255, 255, 255);
     color: black;
