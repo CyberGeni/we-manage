@@ -47,7 +47,7 @@
 }
 .hero {
     background-color: #159580;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-content: center;
@@ -100,8 +100,53 @@
     font-size: 1.5em;
     padding: 20px 30px;
 }
-.about-image {
+.col-sm-4 {
+    display: grid;
     width: 100%;
+}
+.mission-title {
+    font-size: 40px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+}
+.earth-img {
+    width: 300px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    padding-top: 30px;
+}
+.mission-text {
+    font-size: 25px;
+    width: 75%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-content: center;
+    height: fit-content;
+    margin: auto;
+}
+.about-image {
+    width: 400px;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.disposal {
+    justify-content: space-around;
+}
+.disposal-image {
+    justify-content: center;
+    width: 200px;
+}
+.disposal .disposal-label {
+    display: flex;
+    font-size: 2em;
+    color: #095d51;
+    font-weight: 550;
+    padding: 30x;
 }
 .col-md-6 {
     display: flex;
@@ -157,4 +202,24 @@ footer {
     justify-content: center;
     font-size: 12px;
     font-family: 'Jost';
+    bottom: 0;
+    position: absolute;
+    margin: auto;
+    width: 100%;
+}
+.dyk {
+    font-size: 20px;
+    color: #095d51;
+    padding: 0 10px;
+}
+.dyk:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90vh;
+    overflow: hidden;
 }
