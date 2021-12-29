@@ -142,6 +142,7 @@
     width: 200px;
 }
 .disposal .disposal-label {
+    margin: auto;
     display: flex;
     font-size: 2em;
     color: #095d51;
