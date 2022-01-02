@@ -142,6 +142,7 @@
     width: 200px;
 }
 .disposal .disposal-label {
+    margin: auto;
     display: flex;
     font-size: 2em;
     color: #095d51;
@@ -164,14 +165,24 @@
     overflow: hidden;
 }
 .newsletter .newsletter-p {
-    width: 300px;
+    width: 90vw;
     text-align: center;
     font-size: 18px;
     overflow: hidden;
 }
 
+#newsletter{
+    white-space: nowrap;
+}
+
+.newsletter span{
+ font-size: 6vw
+}
+
 input.form-control {
     display: flex;
+    margin: auto;
+    margin-bottom: 1rem;
     border-radius: 0;
     padding: 10px 15px;
     width: 300px;
@@ -188,7 +199,8 @@ input.form-control {
     border-radius: 0;
     text-align: center;
     justify-content: center;
-    margin: 20px 0;
+    margin: auto;
+    margin-bottom: 2rem;
 }
 ::placeholder {
     font-family: 'Jost', sans-serif;
